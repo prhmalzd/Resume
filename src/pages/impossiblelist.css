@@ -1,0 +1,27 @@
+.il {
+  background-color: #1b1b1b;
+}
+.impossibleItems__head {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+.impossibleItems__item {
+  list-style-type: disc;
+  font-size: 1.3rem;
+}
+
+.il__header {
+  font-family: 'Glass Antiqua', cursive;
+  font-weight: 900;
+  letter-spacing: 2px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+}

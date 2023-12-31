@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  color: white;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar__left__name {
+  font-family: 'Glass Antiqua', cursive;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.navbar__right {
+  display: flex;
+  gap: 20px;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.navbar__right span {
+  cursor: pointer;
+}
+.navbar__right a {
+  text-decoration: none;
+  color: white;
+}

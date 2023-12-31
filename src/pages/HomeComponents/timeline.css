@@ -1,0 +1,143 @@
+.timeline {
+  padding-top: 130px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 500px 3px 500px;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+
+
+.timeline__left {
+  display: flex;
+  justify-self: end;
+}
+.timeline__left__disc {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  background-color: white;
+  transform: translateX(-20%);
+  opacity: 0;
+  transition: all 0.6s ease-out;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) -3.2px 2.4px 3.2px;
+
+}
+.timeline__left__disc_name {
+  font-weight: 900;
+  margin-left: 20px;
+  font-size: 1.7rem;
+}
+.timeline__left__disc p {
+  text-align: justify;
+  margin: 0 20px;
+}
+.timeline__left__logo {
+  position: relative;
+  width: 200px;
+  left: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+  transition: all .6s ease-out;
+}
+.timeline__left__logo div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #1b1b1b;
+}
+.timeline__left__logo__date {
+  width: 110px;
+}
+
+
+
+
+
+
+
+.timeline__right {
+  display: flex;
+}
+.timeline__right__disc {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  transform: translateX(20%);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.timeline__right__disc_name {
+  font-weight: 900;
+  margin-left: 20px;
+  font-size: 1.7rem;
+}
+.timeline__right__disc p {
+  text-align: justify;
+  margin: 0 20px;
+}
+.timeline__right__logo {
+  position: relative;
+  width: 200px;
+  left: -142px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+  transition: all .6s ease-out;
+}
+.timeline__right__logo div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #1b1b1b;
+}
+.timeline__right__logo__date {
+  width: 110px;
+}
+
+
+
+
+.timeline__line {
+  width: 4px;
+  height: auto;
+  grid-area: 1/2/6/3;
+  background-color: #1b1b1b;
+  box-shadow: white 0px 30px 20px -12px inset, white 0px -30px 20px -12px inset
+}
+
+.timeline__header {
+  font-size: 2.5rem;
+  position: relative;
+  left: -135px;
+  top: -100px;
+  font-size: 3.3rem;
+  letter-spacing: 5px;
+  font-weight: 900;
+  color: #1b1b1b;
+}
+
+
+
+.show-in-disc {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+}
+.show-in-date {
+  opacity: 1 !important;
+}

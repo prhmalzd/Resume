@@ -1,0 +1,51 @@
+.footer {
+  background-color: #1b1b1b;
+  color: white;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.footer a {
+  text-decoration: none;
+}
+
+.footer__upper {
+  display: flex;
+  width: 100vw;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__upper__contactMe , .footer__upper__siteMap {
+  width: 35vw;
+}
+
+.footer__upper__contactMe__head , .footer__upper__siteMap__head {
+  font-weight: 500;
+  font-size: 2.1rem;
+  padding-bottom: 10px;
+}
+
+.footer__upper__contactMe span , .footer__upper__siteMap p, .footer__upper__siteMap a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #32a3c5;
+}
+.footer__upper__siteMap p {
+  font-weight: 500;
+}
+
+.footer__downer {
+  font-size: 1rem;
+  background-color: #131313;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__downer :last-child a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #32a3c5;
+}

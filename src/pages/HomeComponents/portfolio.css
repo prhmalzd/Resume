@@ -1,0 +1,145 @@
+.portfolioSection__header {
+  width: 100vw;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #252525;
+}
+
+.portfolioSection__header span {
+  font-size: 2.2rem;
+  padding: 0 0 20px 150px;
+}
+
+.portfolioSection__header p {
+  padding-left: 150px;
+  padding-bottom: 10px;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.portfolioSection__portfoliHeader {
+  width: 100vw;
+  height: 150px;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 3.3rem;
+  letter-spacing: 5px;
+  font-weight: 900;
+  color: white;
+}
+
+.portfolioSection__portfolioDis {
+  width: 100vw;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: white;
+}
+
+.portfolioSection__portfolioDis__onePortfolio {
+  width: 360px;
+  height: 420px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.portfolioSection__portfolioDis__onePortfolio__imgHolder img {
+  padding-top: 10px;
+  width: 320px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.controlthebossImgHandler img {
+  width: 190px;
+  height: auto;
+}
+.portfolioSection__portfolioDis__onePortfolio span {
+  font-size: 1.8rem;
+}
+.portfolioSection__portfolioDis__onePortfolio p {
+  font-size: 1.3rem;
+}
+
+
+.portfolioSection__topProjects {
+  background-color: white;
+  color: #1b1b1b;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 30px;
+}
+.portfolioSection__portfolioDis__onePortfolio__infoHolder {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.portfolioSection__portfolioDis__onePortfolio__infoHolder button {
+  padding: 5px 20px;
+  border: solid 2px white;
+  background-color: white;
+  color: #1b1b1b;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.portfolioSection__portfolioDis__onePortfolio__infoHolder button:hover {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+
+.portfolioSection__otherProjects {
+  width: 100vw;
+  height: 350px;
+  padding: 40px 0;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portfolioSection__otherProjects span {
+  font-size: 3.5rem;
+}
+
+.portfolioSection__otherProjects__project {
+  width: 600px;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.portfolioSection__otherProjects__project button {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border: white solid 2px;
+  border-radius: 10px;
+}
+
+.portfolioSection__otherProjects__project button:hover {
+  background-color: #1b1b1b;
+  color: white;
+  cursor: pointer;
+}

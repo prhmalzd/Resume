@@ -1,0 +1,86 @@
+.rps_app {
+  width: 100vw;
+  background-color: #1b1b1b;
+}
+
+.gameBoard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.gameBoard__player,.gameBoard__npc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70vw;
+  height: 200px;
+}
+
+.gameBoard__player__item, .gameBoard__npc__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
+  gap: 4px;
+  cursor: default;
+}
+
+.gameBoard__player__item svg, .gameBoard__npc__item svg {
+  width: 7rem;
+  height: 7rem;
+  cursor: pointer;
+}
+
+.gameBoard__npc__item {
+  color: #3b3b3b;
+}
+
+.gameBoard__npc__item svg {
+  cursor: default;
+}
+
+
+
+/* score Board Style */
+
+.gameBoard__score {
+  height: 100px;
+  display: flex;
+}
+
+.gameBoard__score__player , .gameBoard__score__npc {
+  width: 80px;
+  height: 100px;
+  background-color: #1b1b1b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: white 3px dotted;
+}
+
+.gameBoard__score__player span , .gameBoard__score__npc span {
+  font-size: 4rem;
+}
+
+.gameBorad__score__whoWins {
+  width: 200px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.navvigateHome a {
+  text-decoration: none;
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;;
+}
