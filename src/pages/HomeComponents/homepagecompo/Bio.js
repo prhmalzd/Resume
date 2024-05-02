@@ -39,7 +39,7 @@ const Bio = () => {
         <img src={prof} alt="" />
       </div>
       <span className="bio__name">Parham Alizadeh</span>
-      <span className="bio__discrip">Student, Developer & Thinker</span>
+      <span className="bio__discrip">Gamer, Developer & Thinker</span>
       <div className="bio__links">
         <Link to="https://github.com/prhmalzd"><FaGithub onMouseEnter={showGitHubLink} onMouseLeave={hideLinks}/></Link>
         <Link to="https://twitter.com/kd1k318dse"><FaTwitter onMouseEnter={showTwitterLink} onMouseLeave={hideLinks}/></Link>

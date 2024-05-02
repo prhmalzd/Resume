@@ -1,27 +1,32 @@
 export const timelineInfos = [
   {
     date: 'June 2021',
-    name: 'Start to Learn Js',
-    disc: 'I start a course by Udemy, about learning HTML,CSS,JS by Andrew.'
+    name: 'Beginning to learn JavaScript',
+    disc: "I started writing code on my friend's advice. To begin with, i chose the JavaScript language, and participated in the Udemy course."
   },
   {
     date: 'August 2021',
     name: 'Learning React',
-    disc: 'After completing some tasks in Js, (as you can see in my github), i start another course in Udemy about Complete Course In React by Andrew'
+    disc: 'As time passed, adn I ran different codes, I wanted to learn more, So I entered the world of React.'
   },
   {
     date: 'February 2022',
-    name: 'Vue.js Project',
-    disc: 'I did some Page Design for my friend with Vue.js, that page was for a shoping site'
+    name: 'Vue.js',
+    disc: 'Meanwhile, I did a small project with my friend using Vue framework. The project was about building a shop panel.'
   },
   {
     date: 'June 2022',
-    name: 'React Projects',
-    disc: 'I started to work Remotly by doing React Projects and also completing some tasks for my resume'
+    name: 'React',
+    disc: 'Over time, I did various projects with React and also tried implement my own ideas.'
   },
   {
     date: 'August 2023',
-    name: 'Game Design',
-    disc: 'before that i designed some web game based on React, but in August 2023 finally start to learn Creating 2D games with Godot engine'
+    name: 'Game Development',
+    disc: 'I have always been very interested in making games. Before this, I had designed small games with JavaScript. But finally I started working on Godot and Unity.'
   },
+  {
+    date: 'April 2024',
+    name: 'Game Development',
+    disc: 'I am currently working on a personal project. A site that contains several small games. You can see the design path from my GitHub.'
+  }
 ]

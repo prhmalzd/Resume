@@ -34,7 +34,7 @@ const Portfolio = ({aboutMeRef,portfolioRef}) => {
 
           <div className='portfolioSection__portfolioDis__onePortfolio__infoHolder'>
             <span>Control The Boss</span>
-            <p>A game designed for controlling your boss, and moving it for your desires. Employes must wash hands.</p>
+            <p>A 2D single player puzzle game.</p>
             <a href='https://control-the-boss.vercel.app'><button>Play</button></a>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Portfolio = ({aboutMeRef,portfolioRef}) => {
 
           <div className='portfolioSection__portfolioDis__onePortfolio__infoHolder'>
             <span>Rock Paper Scissors Lizard Spock</span>
-            <p>A game designed by Sheldon Cooper, developed from Old game called Rock Paper Scissors.</p>
+            <p>A game designed by Sheldon Cooper, advanced version of the old game Rock Paper Scissors.</p>
             <Link to='/RPSLS'><button>Play</button></Link>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Portfolio = ({aboutMeRef,portfolioRef}) => {
 
           <div className='portfolioSection__portfolioDis__onePortfolio__infoHolder'>
             <span>Martien Mike</span>
-            <p>A game designed with GDScript in Godot Engine, as you can download and play it in Linux.</p>
+            <p>The first game i made with Godot. You can download and play in the Linux.</p>
             <Link to='https://github.com/prhmalzd/martienMike'><button>Code Source</button></Link>
           </div>
         </div>
